@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCardSplitter", "VCardSplitter\VCardSplitter.csproj", "{24CDBE2E-A642-4167-94D2-A794B7C879AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24CDBE2E-A642-4167-94D2-A794B7C879AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CDBE2E-A642-4167-94D2-A794B7C879AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CDBE2E-A642-4167-94D2-A794B7C879AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CDBE2E-A642-4167-94D2-A794B7C879AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
