@@ -57,15 +57,17 @@ namespace VCardSplitter
             {
                 if (line == "BEGIN:VCARD") isBegin = true;
                 if (line == "END:VCARD") isEnd = true;
-                if (line.StartsWith("FN:")) name = line.Substring(3) + ".vcf";
+                ////if (line.StartsWith("FN:")) name = line.Substring(3) + ".vcf";
                 if (isBegin) contents += System.Environment.NewLine + line;
                 if (isEnd)
                 {
+                    iFiles++;
+
+                    name = String.Format($"vcard_{iFiles:D3}.vcf");
                     File.WriteAllText(Path.Combine(target, name), contents);
                     isBegin = false;
                     isEnd = false;
                     contents = String.Empty;
-                    iFiles++;
                 }
                 this.progress.PerformStep();
             }
