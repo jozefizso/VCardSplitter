@@ -8,6 +8,8 @@ This simple Windows Forms application splits a single file into one VCard
 for each contact, allowing you to drag-and-drop the resulting files into
 Outlook or Exchange.
 
+![VCard Splitter user interface](assets/VCardSplitter.gif)
+
 
 # License
 
